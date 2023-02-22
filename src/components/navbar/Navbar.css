@@ -1,0 +1,30 @@
+    .header {
+        background-color: #3C84AB;
+    }
+    
+    .headerContainer{
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .headerLogo{
+        max-width: 100px;
+    }
+    
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .navbarLink{
+        color: #DEFCF9;
+        font-size: 18px;
+        font-weight: 700;
+        text-decoration: none;
+    }
