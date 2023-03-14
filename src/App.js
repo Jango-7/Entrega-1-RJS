@@ -1,18 +1,33 @@
 import { Navbar } from './components/navbar/Navbar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Instrumentos from './components/Instrumentos/Instrumentos';
+import Amplificadores from './components/Amplificadores/Amplificadores';
+import Pedales from './components/Pedales/Pedales';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 //import './App.css'
 
 function App() {
   return (
 
-    <div>
+    <BrowserRouter>
 
     <Navbar />
-    <ItemListContainer greeting = "Los mejores accesorios para tus instrumentos y lo último en tecnología para que tus producciones estén al más alto nivel" />
 
-    </div>
+    <Routes>
+      <Route path="/" element={ <ItemListContainer /> } />
+      <Route path="/productos/:categoryId" element={ <ItemListContainer /> } />
+      <Route path="/detail/:itemId" element={ <ItemDetailContainer /> } />
+      <Route path="/Instrument" element={ <Instrumentos /> } />
+      <Route path="/Amplifier" element={ <Amplificadores /> } />
+      <Route path="/Pedal" element={ <Pedales /> } />
+      <Route path="*" element={ <Navigate to='/' /> } />
+    </Routes>
+
+    </BrowserRouter>
+
   );
 }
 
