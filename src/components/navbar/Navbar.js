@@ -17,7 +17,8 @@ export const Navbar = () => {
                     <Link to="/productos/Instrument" className="navbarLink">Instrumentos</Link>
                     <Link to="/productos/Amplifier" className="navbarLink">Amplificadores</Link>
                     <Link to="/productos/Pedal" className="navbarLink">Pedales</Link>
-
+                    <Link to="/contacto" className="navbarLink">Contacto</Link>
+                    
                     <CartWidget />
                 </nav>
 

@@ -3,6 +3,7 @@ import ItemList from '../ItemList/ItemList'
 import { pedirDatos } from '../../Helpers/pedirDatos'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import ScaleLoader from "react-spinners/ScaleLoader"
 
 
 
@@ -12,7 +13,6 @@ const ItemListContainer = ( ) => {
     const [loading, setLoading] = useState (true)
 
     const {categoryId} = useParams()
-    console.log(categoryId)
 
     useEffect(() => {
         setLoading(true)
@@ -41,13 +41,14 @@ const ItemListContainer = ( ) => {
 
             {
                 loading
-                    ? <h2>Cargando...</h2>
+                    ? <ScaleLoader
+                    color="#19A7CE"
+                    height={45}
+                    margin={5}
+                    width={8}
+                    />
                     : <ItemList items={productos} />
             }
-
-            {/* <div className='container'>
-            <button className='btn btn-success'>Comprar</button>
-            </div> */}
 
         </div>
     )
