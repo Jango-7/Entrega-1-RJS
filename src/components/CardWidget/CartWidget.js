@@ -9,10 +9,7 @@ export const CartWidget = () => {
 
     return (
 
-        <Link to="/cart" style={{
-            fontSize: '26px',
-            color: 'white'
-        }}>
+        <Link to="/cart" className='cart-widget'>
             <img src="./img/carrito.png" alt="carrito" className="cart" />
             <span>{totalCantidad()}</span>
         </Link>

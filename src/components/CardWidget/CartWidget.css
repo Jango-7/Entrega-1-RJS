@@ -1,4 +1,7 @@
-
+.cart.widget{
+    font-size: 26px;
+    color: white;
+}
 
 .cart{
     max-width: 50px;
