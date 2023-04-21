@@ -1,19 +1,19 @@
 [
     {
         "id": 1,
-        "product": "Redhold",
+        "product": "Cry Baby",
         "price": 7030,
-        "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
-        "image": "http://dummyimage.com/200x300.png/dddddd/000000",
+        "description": "Es un pedal wah-wah muy popular, fabricado por Jim Dunlop. Es el pedal para guitarra más vendido de todos los tiempos.",
+        "image": "/img/pe01 cry.jpeg",
         "stock": 22,
-        "category": "Instrument"
+        "category": "Pedal"
     },
     {
         "id": 2,
-        "product": "Zoolab",
+        "product": "Compressor",
         "price": 18217,
-        "description": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
-        "image": "http://dummyimage.com/200x300.png/ff4444/ffffff",
+        "description": "Este compresor te ayudara a que todos los niveles de ganancias suenen perfecto en nivel. Ademas genera sonidos especiales",
+        "image": "/img/pe02 comp.jpeg",
         "stock": 10,
         "category": "Pedal"
     },
@@ -22,7 +22,7 @@
         "product": "Flowdesk",
         "price": 17376,
         "description": "Fusce consequat. Nulla nisl. Nunc nisl.",
-        "image": "http://dummyimage.com/200x300.png/5fa2dd/ffffff",
+        "image": "/img/in01 fenderStrat.jpeg",
         "stock": 9,
         "category": "Instrument"
     },
@@ -31,25 +31,25 @@
         "product": "Regrant",
         "price": 9458,
         "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
-        "image": "http://dummyimage.com/200x300.png/cc0000/ffffff",
+        "image": "/img/in02 fenderTele.jpeg",
         "stock": 4,
         "category": "Instrument"
     },
     {
         "id": 5,
-        "product": "Domainer",
+        "product": "OverDrive KOKO",
         "price": 9382,
-        "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
-        "image": "http://dummyimage.com/200x300.png/dddddd/000000",
+        "description": "Over Drive con mucho sabor a Blues. Con el podrás generar sensaciones a música como la de BB King",
+        "image": "/img/pe03 od.jpeg",
         "stock": 12,
         "category": "Pedal"
     },
     {
         "id": 6,
-        "product": "Redhold",
+        "product": "Delay AmazonBasics",
         "price": 18851,
-        "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
-        "image": "http://dummyimage.com/200x300.png/ff4444/ffffff",
+        "description": "No tengas en menor estima estos pedales de Amazon. Este Delay esta diseñado para que generes ambientes espaciales increibles.",
+        "image": "/img/pe04 dd.jpg",
         "stock": 21,
         "category": "Pedal"
     },
@@ -58,7 +58,7 @@
         "product": "Kanlam",
         "price": 17762,
         "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
-        "image": "http://dummyimage.com/200x300.png/ff4444/ffffff",
+        "image": "/img/in03 sg.jpeg",
         "stock": 11,
         "category": "Instrument"
     },
@@ -67,7 +67,7 @@
         "product": "Biodex",
         "price": 10453,
         "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
-        "image": "http://dummyimage.com/200x300.png/dddddd/000000",
+        "image": "/img/amp01.png",
         "stock": 9,
         "category": "Amplifier"
     },
@@ -76,16 +76,16 @@
         "product": "Stringtough",
         "price": 9394,
         "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
-        "image": "http://dummyimage.com/200x300.png/cc0000/ffffff",
+        "image": "/img/in04 lespaul.jpeg",
         "stock": 20,
         "category": "Instrument"
     },
     {
         "id": 10,
-        "product": "Bitwolf",
+        "product": "Chorus Corona",
         "price": 21743,
-        "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
-        "image": "http://dummyimage.com/200x300.png/5fa2dd/ffffff",
+        "description": "Logra los mejores sonidos ochenteros con este pedal de Chorus de la marca Corona. La profundidad de su sonido te transportará",
+        "image": "/img/pe05 ch.jpeg",
         "stock": 11,
         "category": "Pedal"
     },
@@ -94,7 +94,7 @@
         "product": "Rank",
         "price": 16015,
         "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
-        "image": "http://dummyimage.com/200x300.png/ff4444/ffffff",
+        "image": "/img/in05 jem.jpeg",
         "stock": 7,
         "category": "Instrument"
     },
@@ -103,7 +103,7 @@
         "product": "Latlux",
         "price": 5228,
         "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
-        "image": "http://dummyimage.com/200x300.png/5fa2dd/ffffff",
+        "image": "/img/amp02.png",
         "stock": 24,
         "category": "Amplifier"
     },
@@ -112,7 +112,7 @@
         "product": "Stim",
         "price": 4315,
         "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
-        "image": "http://dummyimage.com/200x300.png/cc0000/ffffff",
+        "image": "/img/in06 duePaloma.jpeg",
         "stock": 1,
         "category": "Instrument"
     },
@@ -121,16 +121,16 @@
         "product": "Domainer",
         "price": 17910,
         "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
-        "image": "http://dummyimage.com/200x300.png/cc0000/ffffff",
+        "image": "/img/amp03 blues.jpeg",
         "stock": 18,
         "category": "Amplifier"
     },
     {
         "id": 15,
-        "product": "Fix San",
+        "product": "Fuzz",
         "price": 3693,
-        "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
-        "image": "http://dummyimage.com/200x300.png/5fa2dd/ffffff",
+        "description": "Le llaman el mosntruo mosca. Nada como sonar a nuestros grandes idolos. Van Halen estará orgulloso de este sonido.",
+        "image": "/img/pe06 fuzz.jpeg",
         "stock": 25,
         "category": "Pedal"
     },
@@ -139,16 +139,16 @@
         "product": "Wrapsafe",
         "price": 20570,
         "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
-        "image": "http://dummyimage.com/200x300.png/dddddd/000000",
+        "image": "/img/amp04 mustang.jpeg",
         "stock": 3,
-        "category": "Instrument"
+        "category": "Amplifier"
     },
     {
         "id": 17,
         "product": "Voltsillam",
         "price": 11018,
         "description": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
-        "image": "http://dummyimage.com/200x300.png/5fa2dd/ffffff",
+        "image": "/img/amp05 orangeCrunch.jpeg",
         "stock": 1,
         "category": "Amplifier"
     },
@@ -157,16 +157,16 @@
         "product": "Fix San",
         "price": 23724,
         "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
-        "image": "http://dummyimage.com/200x300.png/5fa2dd/ffffff",
+        "image": "/img/in07 g2420t.jpeg",
         "stock": 14,
         "category": "Instrument"
     },
     {
         "id": 19,
-        "product": "Overhold",
+        "product": "Orange Burst OD",
         "price": 19502,
-        "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
-        "image": "http://dummyimage.com/200x300.png/ff4444/ffffff",
+        "description": "Este overdrive de la empresa came ha dado mucho de que hablar en los últimos tiempos. Su sonido es como el de los Marshall",
+        "image": "/img/pe07 od.jpeg",
         "stock": 22,
         "category": "Pedal"
     },
@@ -175,7 +175,7 @@
         "product": "Bigtax",
         "price": 18656,
         "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
-        "image": "http://dummyimage.com/200x300.png/dddddd/000000",
+        "image": "/img/amp06 marOrigin.jpeg",
         "stock": 22,
         "category": "Amplifier"
     },
@@ -184,7 +184,7 @@
         "product": "Prodder",
         "price": 9095,
         "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-        "image": "http://dummyimage.com/200x300.png/dddddd/000000",
+        "image": "/img/amp07 voxmv50.jpeg",
         "stock": 5,
         "category": "Amplifier"
     }

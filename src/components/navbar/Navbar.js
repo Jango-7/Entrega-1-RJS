@@ -5,7 +5,7 @@ import { useContext } from 'react'
 import { CartContext } from '../../context/CartContext'
 
 export const Navbar = () => {
-    const { cart } = useContext(CartContext)
+    // const { cart } = useContext(CartContext)
 
     return (
 
@@ -22,7 +22,7 @@ export const Navbar = () => {
                     <Link to="/productos/Pedal" className="navbarLink">Pedales</Link>
                     <Link to="/contacto" className="navbarLink">Contacto</Link>
                     
-                    { cart.length > 0 && <CartWidget /> }
+                    <CartWidget />
                     
                 </nav>
 
