@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import ItemDetail from "../ItemDetail/ItemDetail"
+import ScaleLoader from "react-spinners/ScaleLoader"
 import { db } from "../../firebase/config"
 import { doc, getDoc } from 'firebase/firestore'
 
@@ -28,10 +29,15 @@ const ItemDetailContainer = () => {
 
     return (
 
-        <div>
+        <div className="container my-5">
             {
                 loading
-                    ? <h2>Cargando...</h2>
+                    ? <ScaleLoader
+                    color="#19A7CE"
+                    height={45}
+                    margin={5}
+                    width={8}
+                    />
                     : <ItemDetail item={item} />
             }
         </div>

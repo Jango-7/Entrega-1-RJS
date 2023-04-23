@@ -38,7 +38,7 @@ const ItemListContainer = ( ) => {
 
     return (
 
-        <div className="contenedor">
+        <div className="contenedor my-5 ppal">
             <h2>Nuestros productos</h2>
             <hr />
 

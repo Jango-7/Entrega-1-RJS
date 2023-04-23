@@ -52,7 +52,7 @@ const ItemDetail = ({item}) =>{
             }
 
             <br/>
-            <button onClick={handleVolver} className="btn btn-primary">Volver</button>
+            <button onClick={handleVolver} className="btn btn-outline-primary">Volver</button>
         </div>
     )
 }
